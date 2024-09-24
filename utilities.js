@@ -1,19 +1,13 @@
 
 
-
+// common function part
 
 function getInputFieldValueById(id)
 {
-
-
     const InputValue=Number(document.getElementById(id).value);
     document.getElementById(id).value='';
-    return InputValue;
-    
-    
+    return InputValue;  
 }
-
-
 
 function getInputFieldBeforNumberValueById(id)
 {
@@ -25,9 +19,6 @@ function getInputFieldBeforNumberValueById(id)
     
     
 }
-
-
-
 
 function getTextFieldValueById(id)
 {
