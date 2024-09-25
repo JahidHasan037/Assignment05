@@ -1,6 +1,6 @@
 
 
-// common function part
+// common function part added
 
 function getInputFieldValueById(id)
 {
@@ -12,12 +12,9 @@ function getInputFieldValueById(id)
 function getInputFieldBeforNumberValueById(id)
 {
 
-
     const InputValue=document.getElementById(id).value;
    
-    return InputValue;
-    
-    
+    return InputValue; 
 }
 
 function getTextFieldValueById(id)
